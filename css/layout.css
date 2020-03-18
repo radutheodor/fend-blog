@@ -1,0 +1,36 @@
+.grid-containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "nav nav"
+    "posts posts"
+    "footer footer";
+}
+
+.posts-container {
+  grid-area: posts;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(180px, 300px);
+  grid-template-areas:
+    "one two"
+    "three four"
+    "five six";
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post .info {
+  flex-grow: 1;
+}
+
+.footer-container {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

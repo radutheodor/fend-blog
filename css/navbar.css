@@ -1,0 +1,6 @@
+.nav-container {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

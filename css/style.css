@@ -1,0 +1,45 @@
+@import "layout.css";
+@import "blog.css";
+@import "navbar.css";
+
+.grid-containers,
+.nav-container,
+.posts-container,
+.footer-container {
+  margin: 16px;
+}
+
+.posts-container {
+  grid-gap: 16px;
+}
+
+.subscribe,
+.search {
+  color: gray;
+}
+
+.post .post-title {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.post .post-title {
+  margin: 0;
+  margin-top: 8px;
+}
+
+.post .tag,
+a {
+  color: rgb(10, 84, 243);
+  margin: 0;
+}
+
+.post .date {
+  font-size: small;
+  color: lightslategray;
+  margin: 0;
+}
+
+.post {
+  outline: 3px lightgrey solid;
+  padding: 16px;
+}
