@@ -27,9 +27,13 @@
   margin-top: 8px;
 }
 
-.post .tag,
-a {
+.post a {
   color: rgb(10, 84, 243);
+  margin: 0;
+}
+
+.tag {
+  color: turquoise;
   margin: 0;
 }
 
