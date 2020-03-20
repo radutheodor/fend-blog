@@ -2,6 +2,42 @@
 @import "blog.css";
 @import "navbar.css";
 
+img {
+  display: block;
+}
+
+.post-image .article-image {
+  margin: 0px;
+  padding: 0px;
+}
+
+figure.post-image figcaption {
+  text-align: left;
+  padding-top: 6px;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 290px;
+  height: 28px;
+  background-color: black;
+  color: aliceblue;
+}
+
+figure.article-image {
+  text-align: center;
+  text-indent: 0;
+}
+
+figure.article-image figcaption {
+  text-align: left;
+  padding-top: 6px;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 450px;
+  height: 28px;
+  background-color: black;
+  color: aliceblue;
+}
+
 .grid-containers,
 .nav-container,
 .posts-container,
@@ -20,9 +56,6 @@
 
 .post .post-title {
   font-family: Verdana, Geneva, sans-serif;
-}
-
-.post .post-title {
   margin: 0;
   margin-top: 8px;
 }
